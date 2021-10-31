@@ -1,6 +1,6 @@
 FROM nginx
 
-ENV VERSION="main"
+ARG VERSION="main"
 
 COPY ./src /usr/share/nginx/html
 
