@@ -20,9 +20,4 @@ phases:
       
 artifacts:
   files:
-    - taskdef.json
-    - appspec.yaml
-  secondary-artifacts:
-    ImageArtifact:
-      files:
-        - imageuri.json
+    - imageuri.json
