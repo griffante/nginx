@@ -19,5 +19,6 @@ phases:
       - printf '{"ImageURI":"%s"}' $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG > imageuri.json
   artifacts:
       secondary-artifacts:
-        files:
-          - imageuri.json
+        ImageArtifact:
+          files:
+            - imageuri.json
