@@ -1,4 +1,4 @@
 # nginx
 Static NGINX Docker Container
 
-Version: 1.1
+Version: 3.0
